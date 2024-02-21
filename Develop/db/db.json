@@ -2,11 +2,21 @@
     {
         "title": "Test Title",
         "text": "Test text",
-        "note_id" :""
+        "id": "1"
     },
     {
         "title": "hello",
         "text": "this is a note\n",
-        "note_id" :""
+        "id": "2"
+    },
+    {
+        "title": "Cook dinner",
+        "text": "dahl",
+        "id": "3"
+    },
+    {
+        "title": "dont forget the milk",
+        "text": "fullcream",
+        "id": "5337"
     }
 ]
