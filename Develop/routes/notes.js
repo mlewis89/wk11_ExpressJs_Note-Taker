@@ -34,7 +34,7 @@ notes.delete("/:id", (req, res) => {
       })
       .then((data) => {
         console.log("saving to file", data);
-        //writeToFile('./db/db.json',data);
+        writeToFile('./db/db.json',data);
         //res.json(JSON.parse(data));
       });
   }
