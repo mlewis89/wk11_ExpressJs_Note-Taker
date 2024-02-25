@@ -25,7 +25,7 @@ notes.post("/", (req, res) => {
 
 notes.delete("/:id", (req, res) => {
   const id = req.params.id;
-  if (id !== 'undefined') {
+  if (id !== null && id !== undefined) {
     const d = [];
     readFromFile("./db/db.json")
       .then((data) => JSON.parse(data))
@@ -35,8 +35,9 @@ notes.delete("/:id", (req, res) => {
       .then((data) => {
         console.log("saving to file", data);
         writeToFile('./db/db.json',data);
-        //res.json(JSON.parse(data));
-      });
+        res.json(data);
+      })
+      .catch((error)=>res.json(error));
   }
   else
   {
