@@ -18,9 +18,10 @@ notes.get("/", (req, res) => {
 //POST methood to add a new note to the 'database'
 notes.post("/", (req, res) => {
   console.log(req.body);
+  
+  const { title, text } = req.body;
   //check the body of the request is not empty
   if (req.body) {
-    const { title, text } = req.body;
     //create new note object.
     const newNote = { title, text, id: uuid() };
     //append new note to 'database' file
