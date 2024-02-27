@@ -5,7 +5,7 @@ const path = require('path');
 const api =  require('./routes/index.js');
 
 //define port for use
-const PORT =  process.env.port || 3001;
+const PORT =  process.env.PORT || 3001;
 //create instance of express
 const app = express();
 
