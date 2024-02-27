@@ -77,13 +77,15 @@ Then navigate to the link provided in the command line.
 ## GitHub repository
 https://github.com/mlewis89/wk11_ExpressJs_Note-Taker
 
+## Heroku Hosting
+https://agile-citadel-28187-7464f8284b7b.herokuapp.com/
+
 ## Screenshots / Video of Completed Challenge
 
-![completed application](/assets/screenshot.PNG)
-![example output](/example/logo.svg)
-
-[Click here to view a video of the application in use](/assets/wk10-svg-generator.mp4)
-alternate video link - https://watch.screencastify.com/v/evz9UvnILzZZ27muz44H
+![completed application](/assets/Capture1.PNG)
+![completed application](/assets/Capture2.PNG)
+![completed application](/assets/Capture3.PNG)
+![completed application](/assets/Capture4.PNG)
 
 ## License
 This project is licensed under the MIT.
